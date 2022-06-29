@@ -1,0 +1,25 @@
+.place__paragraphs {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.63;
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraphs {
+        font-size: 16px;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs {
+        max-width: 90%;
+        padding-left: 16px;
+        gap: 25px;
+    }
+}

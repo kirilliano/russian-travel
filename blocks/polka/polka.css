@@ -1,0 +1,28 @@
+.polka {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 984px;
+    padding-top: 56px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+    .polka {
+        max-width: calc(100% - 96px);
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .polka {
+        max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .polka {
+        max-width: 100%;
+    }
+  }

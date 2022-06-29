@@ -1,0 +1,17 @@
+.polka__title {
+    color: white;
+    font-weight: 900;
+    line-height: 1.04;
+    margin: 0 auto;
+    max-width: 720px;
+    width: 100%;
+    text-align: center;
+    font-size: 96px;
+}
+
+@media screen and (max-width: 767px) {
+    .polka__title {
+        line-height: 1.1;
+        font-size: calc(40px + 56 * ((100vw - 320px) / (1280 - 320)));
+    }
+  }

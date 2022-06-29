@@ -1,0 +1,13 @@
+.polls__title {
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1.07;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .polls__title {
+        font-size: calc(32px + 22 * ((100vw - 320px) / (1280 - 320)));
+    }   
+}
