@@ -1,7 +1,7 @@
 .page {
     background-color: #2A2C2F;
     box-sizing: border-box;
-    font-family: 'inter';
+    font-family: 'inter', 'Arial', sans-serif;
     margin: 0 auto;
     max-width: 1280px;
     min-height: 100vh;
@@ -10,29 +10,5 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%; 
-    text-rendering: optimizeLegibility;
-   
+    text-rendering: optimizeLegibility;  
 }
-
-/*
-@media screen and (max-width: 1279px) {
-    .page {
-        padding-left: 0;
-        padding-right: 0;
-        max-width: 1024px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .page {
-        padding-left: 0;
-        padding-right: 0;
-        max-width: 768px;
-        width: 100%;
-    }
-}
-
-/*
-    padding: 28px 48px 24px 48px;
-     border: 1px solid yellow;
