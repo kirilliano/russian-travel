@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(min-content, max-content));
     grid-gap: 16px;
-    padding-bottom: 92px;
     max-width: calc(100% - 96px);
     margin: 0 auto;
 }
@@ -20,7 +19,6 @@
         grid-gap: 16px;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         max-width: calc(100% - 48px);
-        padding-bottom: 88px;
     }
   }
 
@@ -29,6 +27,5 @@
         grid-gap: 12px;
         grid-template-columns: minmax(min-content, max-content);
         max-width: calc(100% - 32px);
-        padding-bottom: 64px;
     }
   }
