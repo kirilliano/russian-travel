@@ -24,5 +24,6 @@
     .footer {
         padding-top: 64px;
         flex-direction: column;
+        align-items: flex-start;
     }
   }
