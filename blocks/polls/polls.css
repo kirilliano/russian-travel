@@ -1,17 +1,22 @@
 .polls {
-    max-width: 690px;
+    margin: 0 auto;
+    max-width: 984px;
+    padding: 92px 0;
     width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
     .polls {
-        max-width: 720px;
+        max-width: 93.75%;
+        padding-top: 88px;
+        padding-bottom: 88px;
     }
   }
 
   @media screen and (max-width: 767px) {
     .polls {
-        min-width: 288px;
         max-width: 90%;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
   }

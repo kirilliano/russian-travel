@@ -2,11 +2,10 @@
     color: white;
     font-size: 10px;
     font-weight: 400;
-    height: 14px;
+    letter-spacing: 1.5px;
     line-height: 14px;
-    max-width: 158px;
+    max-width: fit-content;
     padding-top: 8px;
-    width: 100%;
     text-transform: uppercase;
 }
 
